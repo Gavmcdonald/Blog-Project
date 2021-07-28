@@ -27,11 +27,13 @@
 }
 
 .main a {
+    display: block;
     text-decoration: none;
     margin: 1rem;
     font-family: 'B612', sans-serif;
     color: green;
-    text-overflow: ellipsis;
+    justify-content: left;
+    
 }
 
 .main a:hover {
