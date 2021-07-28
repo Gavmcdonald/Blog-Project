@@ -1,0 +1,56 @@
+
+@import url(components/header.css);
+@import url(components/main-content.css);
+@import url(components/side.css);
+@import url(components/footer.css);
+
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    min-height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 240px auto;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header"
+    "side main"
+    "footer footer";
+}
+
+@media (max-width: 599px) {
+    .grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto 1fr auto auto;
+        grid-template-areas: 
+        "header"
+        "main"
+        "side"
+        "footer";
+    }
+
+    .header nav ul li a {
+        padding: 0.5em 0.5em;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+    
+}
+
+@media(min-width: 901px) {
+
+}

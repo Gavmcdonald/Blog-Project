@@ -1,0 +1,46 @@
+.side {
+    grid-area: side;
+    background-color:#FFF;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image {
+    margin: 2rem;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: indigo;
+    object-fit: cover;
+}
+
+.side p {
+    
+    text-align: center;
+    margin: 0.5rem;
+    color: #424242;
+}
+
+.side h2 {
+    font-family: 'B612', sans-serif;
+    color: #ff9800;
+
+}
+
+@media (max-width: 599px) {
+    .side{
+        flex-direction: row;
+        flex-wrap: nowrap;
+    } 
+
+    .side p {
+        margin: 1rem;
+        max-width: 50%;
+    }
+
+    .side h2 {
+        display: none;
+    }
+}
