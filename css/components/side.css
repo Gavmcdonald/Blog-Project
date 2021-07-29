@@ -56,7 +56,6 @@ button {
 
 @media (max-width: 599px) {
     .side{
-        flex-direction: row;
         flex-wrap: wrap;
     } 
 

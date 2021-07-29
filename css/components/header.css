@@ -21,6 +21,7 @@
 }
 
 .header nav ul {
+    display: flex;
 	text-align: center;
 }
 
@@ -40,4 +41,10 @@
 
 .header nav ul li a:hover {
     color: #ff9800;
+}
+
+@media (max-width: 440px) {
+    .logo{
+        font-size: 1.5rem;
+    }
 }
