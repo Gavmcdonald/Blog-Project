@@ -3,6 +3,7 @@
 @import url(components/main-content.css);
 @import url(components/side.css);
 @import url(components/footer.css);
+@import url(components/post.css);
 
 @import url('https://fonts.googleapis.com/css2?family=B612:wght@700&family=Roboto&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');

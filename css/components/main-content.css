@@ -41,11 +41,22 @@
 
 }
 
-@media(min-width: 600px) and (max-width: 1055px){
+@media(min-width: 905px) and (max-width: 1235px){
 
     .card {
-        width: 40%;
+        width: 45%;
     }
     
 }
+@media(min-width: 320px) and (max-width: 904px){
+
+    .card {
+        width: 80%;
+    }
+    
+}
+
+
+
+
 
