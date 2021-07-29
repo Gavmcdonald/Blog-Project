@@ -8,10 +8,19 @@
     text-align: center;
 }
 
-.post img {
+.post figure {
+    width: 100%;
+}
+
+.post figure img {
     min-width: 60%;
     height: 50vh;
     object-fit: cover;
+}
+
+.post figure figcaption {
+    color: grey;
+    font-size: 0.75rem;
 }
 
 .post h1 {
