@@ -23,6 +23,26 @@
     font-size: 0.75rem;
 }
 
+.post .description, blockquote{
+    width: 70%;
+    text-align: justify;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.description b, blockquote{
+    color: green;
+    font-weight: 900;
+}
+
+.description u {
+    color: #ff9800;
+}
+
+.description i {
+    font-weight: 600;
+}
+
 .post h1 {
     font-family: 'B612', sans-serif;
     color: green;
